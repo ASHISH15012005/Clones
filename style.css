@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color:#dad8d8;
+    position: relative;
+}
+
+.navigation
+{
+    position: relative;
+    height: 125px;
+    background-color: rgb(255, 255, 255);
+    border-top: 3.7px solid rgb(20, 151, 20);
+    box-shadow: 10px 0px 10px rgb(180, 179, 179) ;
+    
+}
+.navigation li 
+{
+    display: inline-block;
+    list-style-type: none;
+}
+.sub-navbar
+{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 31px;
+    left: 145px;
+    font-weight: bold;
+}
+.logo .img
+{
+    height: 70px;
+    margin-left: 150px;
+}
+.logo .img img
+{
+    height: 100%;
+    width: 100%;
+}
+.inputfield
+{
+    height: 34px;
+    width: 460px;
+    border: none;
+    outline: none;
+}
+i
+{
+    font-size: 13px;
+    padding: 9.7px;
+    color: rgb(20, 188, 20);
+}
+.searchbar
+{
+    position: absolute;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1.5px solid #d6d4d4;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.compass
+{
+    position: absolute;
+    top: 7px;
+    height: 24px;
+    width: 24px;
+}
+.location
+{
+    position: absolute;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    padding: 10px;
+    left: 840px;
+    top: 19px;
+}
+.text
+{
+    margin-left: 29px;
+    font-size: small;
+    font-weight: bold;
+}
+.login
+{
+    position: absolute;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    left:1030px ;
+    top: 19px;
+    margin-right: 10px;
+}
+.login-text
+{
+    font-size: small;
+    font-weight: bold;
+}
+.cart i
+{
+    position: absolute;
+    left: 1165px;
+    top: 19px;
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 213);
+}
+
+.dropdown select 
+{
+    padding: 12px;
+    background-color: #5e9400;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    outline: none;
+}
+.sub-navbar li
+{
+    position: relative;
+    margin-top: 0px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    top: 30px;
+    padding-right: 47px;
+}
+.smart
+{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 80px;
+}
+.basket
+{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 190px;
+}
+span
+{
+    font-size:10pt ;
+    font-weight: bolder;
+}
+.hero-section
+{
+    display: flex;
+    justify-content: center;
+}
+.image
+{
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+}
+.image img
+{
+    height: 100%;
+    width: 100%;
+    border-radius:10px ;
+}
+.buttons li
+{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    font-weight: bold;
+    height: 54px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #d9d8d8;
+    
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.active img{
+    width: 100%;
+    height: 100%;
+}
+.combo img
+{
+    height: 10px;
+}
